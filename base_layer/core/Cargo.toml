@@ -130,3 +130,7 @@ unexpected_cfgs = { level = "warn", check-cfg = [
     'cfg(tari_target_network_nextnet)',
     'cfg(tari_target_network_testnet)',
 ] }
+
+
+[package.metadata.cargo-machete]
+ignored = ["hickory-proto"]
